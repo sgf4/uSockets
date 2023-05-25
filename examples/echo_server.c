@@ -1,6 +1,6 @@
 /* This is a basic TCP/TLS echo server. */
 
-#include <libusockets.h>
+#include <usockets/usockets.h>
 const int SSL = 1;
 
 #include <stdio.h>

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#include "libusockets.h"
+#include "usockets.h"
 #include "internal/internal.h"
 #include <stdlib.h>
 

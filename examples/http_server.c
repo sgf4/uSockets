@@ -1,5 +1,5 @@
 /* This is a barebone keep-alive HTTP server */
-#include <libusockets.h>
+#include <usockets/usockets.h>
 /* Compiling with LIBUS_NO_SSL will ignore SSL */
 const int SSL = 1;
 

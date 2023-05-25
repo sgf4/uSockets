@@ -1,4 +1,4 @@
-# libusockets.h
+# usockets.h
 This is the only header you include. Following documentation has been extracted from this header. It may be outdated, go read the header directly for up-to-date documentation.
 
 These interfaces are "beta" and subject to smaller changes. Last updated **2019-06-11**.

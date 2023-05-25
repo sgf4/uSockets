@@ -23,7 +23,7 @@
 // holds everything you need from the bsd/winsock interfaces, only included by internal libusockets.h
 // here everything about the syscalls are inline-wrapped and included
 
-#include "libusockets.h"
+#include "usockets.h"
 
 #ifdef _WIN32
 #ifndef NOMINMAX

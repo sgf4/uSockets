@@ -1,5 +1,5 @@
 /* Simple usage of two UDP sockets sending messages to eachother like ping/pong */
-#include <libusockets.h>
+#include <usockets/usockets.h>
 
 #include <stdio.h>
 #include <stdlib.h>

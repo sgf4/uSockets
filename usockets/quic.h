@@ -5,7 +5,7 @@
 
 /* Experimental QUIC functions */
 
-#include "libusockets.h"
+#include "usockets.h"
 
 typedef struct {
     const char *cert_file_name;

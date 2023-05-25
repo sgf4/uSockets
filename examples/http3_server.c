@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /* Experimental HTTP/3 server. You can use quiche-client --no-verify https://[::1]:9004/ */
-#include <libusockets.h>
+#include <usockets/usockets.h>
 
 /* Quic interface is not exposed under libusockets.h yet */
 #include "quic.h"

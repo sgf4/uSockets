@@ -16,7 +16,7 @@
  */
 
 extern "C" {
-    #include "libusockets.h"
+    #include "usockets.h"
     #include "internal/internal.h"
     #include <stdlib.h>
 }
