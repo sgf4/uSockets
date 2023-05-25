@@ -32,7 +32,8 @@ add_library(
 )
 add_library(usockets::usockets ALIAS usockets)
 
-target_include_directories(usockets PUBLIC usockets)
+target_include_directories(usockets PRIVATE usockets)
+target_include_directories(usockets INTERFACE ${PROJECT_SOURCE_DIR})
 
 if(${WITH_SSL})
   add_compile_definitions(LIBUS_USE_OPENSSL)
